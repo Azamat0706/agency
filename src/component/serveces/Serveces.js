@@ -19,7 +19,7 @@ const Serveces = () => {
         <div>
         <img src={iss} alt="" />
         <h1>500+</h1>
-        <p>Active clients</p>
+        <p>Active Clients</p>
         </div>
         <hr />
         
