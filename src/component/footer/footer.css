@@ -1,0 +1,65 @@
+.sectonss{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 40px 5rem;
+}
+.secton img{
+    width: 40px;
+
+}
+.secton{
+    display: flex;
+    flex-direction: column;
+}
+.secton a {
+    text-decoration: none;
+    color:
+    rgba(100, 100, 100, 1) ;
+    padding-top: 10px;
+}
+.fexx{
+    display: flex;
+}
+.fexx h4{
+    padding-top: 8px;
+    padding-left: 10px;
+
+}
+.sectonss form {
+    display: flex;
+    flex-direction: column;
+}
+.sectonss form input{
+    width: 292px;
+    height: 40px;
+    margin-top: 10px;
+}
+.sectonss form button{
+    width: 292px;
+    height: 40px;
+    margin-top: 10px;
+}
+.sectonss span{
+    padding-top: 10px;
+}
+.sectonss i{
+    padding-top: 10px;
+    font-size: 2rem;
+}
+.fix{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding:15px 10px;
+}
+.fix a{
+    text-decoration: none;
+    color:
+    rgba(100, 100, 100, 1) ;
+}
+.fix div{
+    display: flex;
+    gap: 20px;
+}

@@ -1,0 +1,25 @@
+.footers1 > h1{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.footers2{
+    padding-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    border: black;
+
+}
+.footers2 div{
+    width: 300px;
+    padding-left: 60px;
+}
+.footers2 div >h1{
+   padding-top: 15px;
+}
+.footers1{
+    width: 100%;
+    height: 50vh;
+}

@@ -1,0 +1,37 @@
+.gallery1 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gallery1{
+    position: relative;
+    height: 140vh;
+}
+.gallery2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2rem 5rem;
+}
+.gallery2 >div {
+        width: 52vh;
+        height: 50vh;
+    /* background: rgba(255, 255, 255, 1); */
+
+}
+.gallery2 div >h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    height: 40px;
+
+    background: rgba(255, 255, 255, 1);
+}
+.Btns{
+position: relative;
+left:37rem ;
+width: 242px;
+height: 53px;
+border-radius: 5px;
+background: rgba(243, 95, 47, 0.75);
+}

@@ -1,0 +1,46 @@
+.contact1 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 700px;
+    gap: 17px;
+    padding-left: 25rem;
+    padding-top: 5rem;
+}
+
+.input input{
+    width: 333px;
+    height: 40px;
+    margin-top: 6px;
+    padding-left: 8px;
+}
+
+.input1 input{
+    width: 680px;
+    height: 200px;
+}
+
+.input1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.btns{
+    width: 207px;
+    height: 40px;
+    background: rgba(243, 95, 47, 0.75);
+    color: white;
+}
+.btnss{
+    width: 75%;
+display: flex;
+align-items: center;
+justify-content: end;
+padding-top: 40px;
+}

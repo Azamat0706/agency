@@ -1,0 +1,53 @@
+header {
+    padding: 10px 15px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-left: 25px;
+}
+.flex img{
+height: 40px;    
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+}
+header button{
+    width: 90px;
+    height: 4vh;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 1em;
+    font-size: 1.5rem;
+}
+header nav a:hover{
+  
+    color: #F35F2F;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 1em 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F35F2F;
+    width: 90px;
+    height: 5vh;
+    border-radius: 4px;
+    border-color: #F35F2F;
+}

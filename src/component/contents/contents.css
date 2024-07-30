@@ -1,0 +1,79 @@
+.contents01{ 
+width: 150vh;
+margin: 0 auto;
+display: grid;
+position: relative;
+grid-template-columns: 1fr 1fr 1fr;
+padding:8rem 30px;
+}
+.contents01 div{
+    width: 300px;
+    height: 30vh;
+    background:rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+
+    
+}
+.contents01 div h3{
+    padding-top: 60px;
+}
+.contents01 i{
+    padding-top: 20px;
+}
+.contents h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contents{
+    padding-top: 40px;
+    height: 90vh;
+}
+.contents01 img{
+    color:black ;
+}
+.hed1,
+.hed2,
+.hed3{
+    width: 100px;
+    height: 100px;
+    border-radius:50px ;
+}
+.hed1,
+.hed2,
+.hed3 img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hed1{
+position: relative;
+bottom: 25rem;
+left : 62rem;
+}
+.hed2{
+    position: relative;
+    bottom: 32rem;
+    left: 19rem;
+}
+.hed3{
+    position: relative;
+    bottom: 38rem;
+    left: 40rem;
+}
+.hed3 img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+}
+.hed1:hover,
+.hed2:hover,
+.hed3:hover{
+    background: rgba(255, 122, 80, 0.83);
+}
